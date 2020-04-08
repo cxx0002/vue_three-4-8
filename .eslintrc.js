@@ -17,12 +17,14 @@ module.exports = {
 
   rules: {
     'no-console': 'off',
-    'no-debugger': 'off'
+    'no-debugger': 'off',
+    "indent": ["off", 2]
   },
 
   'extends': [
     'plugin:vue/essential',
     '@vue/standard',
     '@vue/typescript/recommended'
-  ]
+  ],
+
 }
