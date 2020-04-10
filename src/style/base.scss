@@ -9,7 +9,11 @@
 
 /* Document
    ========================================================================== */
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
@@ -26,6 +30,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 /**

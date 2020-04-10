@@ -1,17 +1,23 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <Three_head :msg="msg"></Three_head>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Three_head from '@/components/base/three_head.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    // HelloWorld,
+    Three_head
+  },
+  data(){
+    return {
+      msg:'这是一条不可编辑的信息。'
+    }
   }
 }
 </script>

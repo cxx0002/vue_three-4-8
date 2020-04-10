@@ -32,13 +32,17 @@ instance.interceptors.response.use(
       }
     }
     switch (error.response.status) {
+      case 401:
+        //
+        break;
+
       case 403:
         //
 
         break;
       case 404:
         //
-      alert(404)
+
         break;
       case 500:
         //
