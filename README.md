@@ -1,4 +1,4 @@
-# 配合node联系demo
+# node-vue_demo
 
 ## Project setup
 ```
